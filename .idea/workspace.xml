@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="Item Service Updated 2">
+    <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="Refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +156,10 @@
       <workItem from="1717655957103" duration="2036000" />
       <workItem from="1717658017038" duration="1185000" />
       <workItem from="1717660914493" duration="796000" />
+      <workItem from="1717671866134" duration="1146000" />
+      <workItem from="1717673021225" duration="56000" />
+      <workItem from="1717673421147" duration="240000" />
+      <workItem from="1717673734417" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="Service Registry Added">
       <option name="closed" value="true" />
@@ -190,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717659198618</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactored">
+      <option name="closed" value="true" />
+      <created>1717673009735</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717673009735</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +221,7 @@
     <MESSAGE value="Customer Service Updated" />
     <MESSAGE value="Item Service Updated" />
     <MESSAGE value="Item Service Updated 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Item Service Updated 2" />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
 </project>

@@ -15,6 +15,6 @@ public class ItemController {
 
     @GetMapping("/getItem")
     public String getItem() {
-        return "Item-Service";
+        return "Get Items Successfully...!";
     }
 }

@@ -15,6 +15,6 @@ public class CustomerController {
 
     @GetMapping("/getCustomer")
     public String getCustomer() {
-        return "Customer-Service";
+        return "Get Customers Successfully...!";
     }
 }
