@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="Item Service Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="Item Service Updated 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/test/java/lk/ijse/gdse66/microservice/CustomerServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/ItemServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/test/java/lk/ijse/gdse66/microservice/CustomerServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/test/java/lk/ijse/gdse66/microservice/ServiceRegistryApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +33,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CustomerServiceApplication.executor": "Run",
-    "Spring Boot.ItemServiceApplication.executor": "Run",
-    "Spring Boot.ServiceRegistryApplication.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/AD2/Micro-Services/item-service/src/main/java/lk/ijse/gdse66/microservice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CustomerServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ItemServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/AD2/Micro-Services/item-service/src/main/java/lk/ijse/gdse66/microservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\AD2\Micro-Services\item-service\src\main\java\lk\ijse\gdse66\microservice" />
@@ -89,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
     <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.microservice.CustomerServiceApplication" />
@@ -131,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ItemServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.ServiceRegistryApplication" />
-        <item itemvalue="Spring Boot.ItemServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +147,8 @@
       <updated>1717655796558</updated>
       <workItem from="1717655797714" duration="141000" />
       <workItem from="1717655957103" duration="2036000" />
-      <workItem from="1717658017038" duration="737000" />
+      <workItem from="1717658017038" duration="1185000" />
+      <workItem from="1717660914493" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="Service Registry Added">
       <option name="closed" value="true" />
@@ -189,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717657988873</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Item Service Updated 2">
+      <option name="closed" value="true" />
+      <created>1717659198618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717659198618</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +201,7 @@
     <MESSAGE value="Service Registry Updated" />
     <MESSAGE value="Customer Service Updated" />
     <MESSAGE value="Item Service Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Item Service Updated" />
+    <MESSAGE value="Item Service Updated 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Item Service Updated 2" />
   </component>
 </project>
