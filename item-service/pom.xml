@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>lk.ijse.gdse66</groupId>
-    <artifactId>customer-service</artifactId>
+    <artifactId>item-service</artifactId>
     <version>0.0.1</version>
-    <name>customer-service</name>
-    <description>customer-service</description>
+    <name>item-service</name>
+    <description>item-service</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.2</spring-cloud.version>
