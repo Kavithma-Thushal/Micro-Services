@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="Refactored">
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+    <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="All Configurations Refactored">
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/lk/ijse/gdse66/microservice/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69f93aed-b76e-4996-9320-cc181c2bcd95.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69f93aed-b76e-4996-9320-cc181c2bcd95/storage_v2/_src_/schema/micro_service.OqhLXw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/lk/ijse/gdse66/microservice/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/lk/ijse/gdse66/microservice/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/target/classes/lk/ijse/gdse66/microservice/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/lk/ijse/gdse66/microservice/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceRegistryApplication">
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
     <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.microservice.CustomerServiceApplication" />
@@ -136,6 +132,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ItemServiceApplication" />
+        <item itemvalue="Spring Boot.ServiceRegistryApplication" />
+        <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.ServiceRegistryApplication" />
       </list>
@@ -165,7 +163,8 @@
       <workItem from="1717673021225" duration="56000" />
       <workItem from="1717673421147" duration="240000" />
       <workItem from="1717673734417" duration="1227000" />
-      <workItem from="1717988542461" duration="2979000" />
+      <workItem from="1717988542461" duration="3177000" />
+      <workItem from="1717995992991" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="Service Registry Added">
       <option name="closed" value="true" />
@@ -215,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717673009735</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="All Configurations Refactored">
+      <option name="closed" value="true" />
+      <created>1717995917007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717995917007</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +235,7 @@
     <MESSAGE value="Item Service Updated" />
     <MESSAGE value="Item Service Updated 2" />
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="All Configurations Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Configurations Refactored" />
   </component>
 </project>

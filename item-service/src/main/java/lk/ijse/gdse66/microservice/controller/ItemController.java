@@ -1,8 +1,7 @@
 package lk.ijse.gdse66.microservice.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.ijse.gdse66.microservice.dto.ItemDTO;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author : Kavithma Thushal
@@ -16,5 +15,12 @@ public class ItemController {
     @GetMapping("/getItem")
     public String getItem() {
         return "Get Items Successfully...!";
+    }
+
+    @PostMapping("/saveItem")
+    public void saveCustomer(@RequestBody ItemDTO itemDTO) {
+        System.out.println(itemDTO.getCode());
+        System.out.println(itemDTO.getDescription());
+        System.out.println(itemDTO.getPrice());
     }
 }

@@ -1,8 +1,7 @@
 package lk.ijse.gdse66.microservice.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.ijse.gdse66.microservice.dto.CustomerDTO;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author : Kavithma Thushal
@@ -16,5 +15,12 @@ public class CustomerController {
     @GetMapping("/getCustomer")
     public String getCustomer() {
         return "Get Customers Successfully...!";
+    }
+
+    @PostMapping("/saveCustomer")
+    public void saveCustomer(@RequestBody CustomerDTO customerDTO) {
+        System.out.println(customerDTO.getId());
+        System.out.println(customerDTO.getName());
+        System.out.println(customerDTO.getAddress());
     }
 }
