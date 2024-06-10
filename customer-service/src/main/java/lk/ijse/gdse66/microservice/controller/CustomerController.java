@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since : 12:28 PM - 6/6/2024
  **/
 @RestController
-@RequestMapping("/customer")
+@RequestMapping("/api/v1/customer")
 public class CustomerController {
 
     @GetMapping("/getCustomer")

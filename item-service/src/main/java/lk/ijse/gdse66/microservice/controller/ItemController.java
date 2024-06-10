@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since : 12:28 PM - 6/6/2024
  **/
 @RestController
-@RequestMapping("/item")
+@RequestMapping("/api/v1/item")
 public class ItemController {
 
     @GetMapping("/getItem")

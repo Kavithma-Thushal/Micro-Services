@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d70b36-005e-465b-821c-739c86d60312" name="Changes" comment="Refactored">
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/lk/ijse/gdse66/microservice/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/lk/ijse/gdse66/microservice/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/lk/ijse/gdse66/microservice/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/lk/ijse/gdse66/microservice/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/lk/ijse/gdse66/microservice/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-registry/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceRegistryApplication">
     <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.microservice.CustomerServiceApplication" />
@@ -160,6 +165,7 @@
       <workItem from="1717673021225" duration="56000" />
       <workItem from="1717673421147" duration="240000" />
       <workItem from="1717673734417" duration="1227000" />
+      <workItem from="1717988542461" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="Service Registry Added">
       <option name="closed" value="true" />
