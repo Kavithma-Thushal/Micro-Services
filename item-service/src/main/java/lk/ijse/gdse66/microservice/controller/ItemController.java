@@ -1,7 +1,9 @@
 package lk.ijse.gdse66.microservice.controller;
 
 import lk.ijse.gdse66.microservice.dto.ItemDTO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @author : Kavithma Thushal
@@ -11,6 +13,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/v1/item")
 public class ItemController {
+
+    @Autowired
+    public RestTemplate restTemplate;
 
     @GetMapping("/getItem")
     public String getItem() {
