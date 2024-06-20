@@ -17,11 +17,13 @@ public class CustomerController {
     @Autowired
     public RestTemplate restTemplate;
 
+    /* PostMan URL --> http://localhost:8080/api/v1/customer/getCustomer */
     @GetMapping("/getCustomer")
     public String getCustomer() {
         return restTemplate.getForObject("http://api-gateway/api/v1/item/getItem", String.class);
     }
 
+    /* PostMan URL --> http://localhost:8080/api/v1/customer/saveCustomer */
     @PostMapping("/saveCustomer")
     public void saveCustomer(@RequestBody CustomerDTO customerDTO) {
         restTemplate.postForObject("http://api-gateway/api/v1/item/saveItem", customerDTO, CustomerDTO.class);
