@@ -17,11 +17,13 @@ public class ItemController {
     @Autowired
     public RestTemplate restTemplate;
 
+    /* PostMan URL --> http://localhost:8082/api/v1/item/getItem */
     @GetMapping("/getItem")
     public String getItem() {
         return "Get Items Successfully...!";
     }
 
+    /* PostMan URL --> http://localhost:8082/api/v1/item/saveItem */
     @PostMapping("/saveItem")
     public void saveCustomer(@RequestBody ItemDTO itemDTO) {
         System.out.println(itemDTO.getCode());
