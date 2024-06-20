@@ -19,11 +19,11 @@ public class CustomerController {
 
     @GetMapping("/getCustomer")
     public String getCustomer() {
-        return restTemplate.getForObject("http://localhost:8082/ad2/api/v1/item/getItem", String.class);
+        return restTemplate.getForObject("http://api-gateway/api/v1/item/getItem", String.class);
     }
 
     @PostMapping("/saveCustomer")
     public void saveCustomer(@RequestBody CustomerDTO customerDTO) {
-        restTemplate.postForObject("http://localhost:8082/ad2/api/v1/item/saveItem", customerDTO, CustomerDTO.class);
+        restTemplate.postForObject("http://api-gateway/api/v1/item/saveItem", customerDTO, CustomerDTO.class);
     }
 }

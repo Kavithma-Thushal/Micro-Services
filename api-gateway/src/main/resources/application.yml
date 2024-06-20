@@ -6,13 +6,13 @@ spring:
       mvc:
         routes:
           - id: customer-service
-            uri: lb://customer
+            uri: lb://customer-service
             predicates:
-              - path=/customer/**
+              - Path=/api/v1/customer/**
           - id: item-service
-            uri: lb://item
+            uri: lb://item-service
             predicates:
-              - path=/item/**
+              - Path=/api/v1/item/**
 
 server:
   port: 8080
