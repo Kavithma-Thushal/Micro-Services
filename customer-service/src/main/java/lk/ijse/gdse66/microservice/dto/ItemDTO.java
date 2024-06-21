@@ -14,8 +14,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CustomerDTO {
-    private String id;
-    private String name;
-    private String address;
+public class ItemDTO {
+    private String code;
+    private String description;
+    private String price;
 }

@@ -1,6 +1,6 @@
 package lk.ijse.gdse66.microservice.controller;
 
-import lk.ijse.gdse66.microservice.dto.CustomerDTO;
+import lk.ijse.gdse66.microservice.dto.ItemDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -25,7 +25,7 @@ public class CustomerController {
 
     /* URL --> http://localhost:8080/api/v1/customer/saveCustomer */
     @PostMapping("/saveCustomer")
-    public void saveCustomer(@RequestBody CustomerDTO customerDTO) {
-        restTemplate.postForObject("http://api-gateway/api/v1/item/saveItem", customerDTO, CustomerDTO.class);
+    public void saveCustomer(@RequestBody ItemDTO itemDTO) {
+        restTemplate.postForObject("http://api-gateway/api/v1/item/saveItem", itemDTO, ItemDTO.class);
     }
 }
